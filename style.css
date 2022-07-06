@@ -40,7 +40,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  height: 80vh;
+  height: 100vh;
   background-image: url("./img/header.png");
 }
 .hero-section h1 {
@@ -173,7 +173,7 @@
   color: #707070;
 }
 
-/* Contrubute Section Style */
+/* Donation Section Style */
 .donation {
   display: flex;
   margin: 100px auto;
@@ -202,6 +202,20 @@
 .image-part img {
   width: 100%;
   height: 100%;
+}
+/* Partners Style */
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+}
+.partners .secondary-text {
+  text-align: center;
+}
+.partners .anchor-button {
+  width: 200px;
 }
 /* Get Update styles */
 .get-updates {
